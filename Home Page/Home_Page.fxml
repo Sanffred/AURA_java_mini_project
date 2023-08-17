@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.gluonhq.charm.glisten.control.ToggleButtonGroup?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@images/background%20color.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="7.0" layoutY="6.0" prefHeight="600.0" prefWidth="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="100.0" prefWidth="150.0">
+               <children>
+                  <Avatar radius="25.0" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <image>
+                        <Image url="@images/profile%20(2).png" />
+                     </image>
+                  </Avatar>
+               </children>
+            </VBox>
+            <VBox prefHeight="500.0" prefWidth="150.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="142.0" text="Browse Music" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="20.0" prefWidth="150.0" />
+                  <Label prefHeight="18.0" prefWidth="86.0" text="Home" textFill="WHITE">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="15.0" prefWidth="150.0" />
+                  <Label text="Albums" textFill="WHITE">
+                     <padding>
+                        <Insets left="45.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="15.0" prefWidth="150.0" />
+                  <Label text="Tracks" textFill="WHITE">
+                     <padding>
+                        <Insets left="48.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="15.0" prefWidth="150.0" />
+                  <Label text="Genres" textFill="WHITE">
+                     <padding>
+                        <Insets left="45.0" />
+                     </padding></Label>
+                  <Region prefHeight="20.0" prefWidth="150.0" />
+                  <Label prefHeight="30.0" prefWidth="150.0" text="Library" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="42.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="20.0" prefWidth="150.0" />
+                  <Label text="Recently Played" textFill="WHITE">
+                     <padding>
+                        <Insets left="25.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="15.0" prefWidth="150.0" />
+                  <Label text="Favorite Tracks" textFill="WHITE">
+                     <padding>
+                        <Insets left="26.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="15.0" prefWidth="150.0" />
+                  <Label text="Charts" textFill="WHITE">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="15.0" prefWidth="150.0" />
+                  <Label text="Radio" textFill="WHITE">
+                     <padding>
+                        <Insets left="54.0" />
+                     </padding>
+                  </Label>
+                  <VBox prefHeight="140.0" prefWidth="150.0">
+                     <children>
+                        <ImageView fitHeight="32.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/cogwheel%20(1).png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="20.0" top="80.0" />
+                           </VBox.margin>
+                        </ImageView>
+                     </children></VBox>
+               </children>
+            </VBox>
+         </children></VBox>
+      <VBox layoutX="150.0" layoutY="5.0" prefHeight="600.0" prefWidth="500.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="500.0">
+               <children>
+                  <HBox prefHeight="50.0" prefWidth="50.0">
+                     <children>
+                        <ImageView fitHeight="37.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/left-arrow%20(1).png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <Region prefHeight="50.0" prefWidth="15.0" />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Artist" textFill="#b1b1b1">
+                           <padding>
+                              <Insets top="20.0" />
+                           </padding>
+                        </Label>
+                        <Region prefHeight="50.0" prefWidth="20.0" />
+                        <ImageView fitHeight="15.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/right-arrow%20(2).png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Region prefHeight="50.0" prefWidth="20.0" />
+                        <Label text="ThunderCat" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="50.0">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/search%20(1).png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="25.0" top="15.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <TextField floatText="Search " />
+               </children>
+            </HBox>
+            <Region prefHeight="15.0" prefWidth="500.0" />
+            <HBox prefHeight="150.0" prefWidth="500.0">
+               <children>
+                  <ImageView fitHeight="158.0" fitWidth="499.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Logo3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Region prefHeight="10.0" prefWidth="150.0" />
+            <HBox prefHeight="150.0" prefWidth="200.0" spacing="15.0">
+               <children>
+                  <HBox prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Fotoram.io%20(5).png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Black Catcher" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Vickeblanka" textFill="#444444" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Fotoram.io%20(6).png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Uptown Girl" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Billy Joel" textFill="#444444" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="141.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Fotoram.io%20(7).png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Lay All Your Love On Me" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="ABBA" textFill="#444444" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <Region prefHeight="5.0" prefWidth="150.0" />
+            <HBox prefHeight="150.0" prefWidth="500.0" spacing="15.0">
+               <children>
+                  <HBox prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Fotoram.io%20(8).png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Dancing Queen " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="ABBA" textFill="#444444" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Fotoram.io%20(9).png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="Alag Aasaman" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Anuv Jain" textFill="#444444" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="150.0" prefWidth="150.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="140.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Fotoram.io%20(10).png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <Label text="Be My Baby" textFill="WHITE">
+                                 <padding>
+                                    <Insets left="15.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="The Ronettes" textFill="#444444">
+                                 <padding>
+                                    <Insets left="15.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children></VBox>
+      <VBox layoutX="650.0" layoutY="90.0" prefHeight="600.0" prefWidth="232.0" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="250.0">
+               <children>
+                  <ToggleButtonGroup selectionType="SINGLE">
+                      <toggles>
+                          <ToggleButton>
+                              <graphic>
+                                  <Icon content="KEYBOARD_VOICE" prefHeight="50.0" prefWidth="50.0" />
+                              </graphic>
+                          </ToggleButton>
+                      </toggles>
+                  </ToggleButtonGroup>
+                  <HBox prefHeight="65.0" prefWidth="107.0" />
+                  <ToggleButtonGroup selectionType="SINGLE">
+                      <toggles>
+                          <ToggleButton>
+                              <graphic>
+                                  <Icon content="MENU" prefHeight="50.0" prefWidth="50.0" />
+                              </graphic>
+                          </ToggleButton>
+                      </toggles>
+                  </ToggleButtonGroup>
+               </children>
+            </HBox>
+            <HBox prefHeight="362.0" prefWidth="242.0" spacing="39.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="250.0">
+                     <children>
+                        <Label text="Now Playing..." textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Region prefHeight="15.0" prefWidth="242.0" />
+                        <ImageView fitHeight="234.0" fitWidth="233.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Fotoram.io%20(3).png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="8.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label text="Kill Bill" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="25.0" />
+                           </padding>
+                        </Label>
+                        <Label text="SZA" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <padding>
+                              <Insets left="25.0" />
+                           </padding>
+                        </Label>
+                        <HBox prefHeight="18.0" prefWidth="243.0" spacing="30.0">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+                                 <image>
+                                    <Image url="@images/next.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/play-button.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/next.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets left="39.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children></VBox>
+   </children>
+</AnchorPane>

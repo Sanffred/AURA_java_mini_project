@@ -21,7 +21,7 @@
          <children>
             <ImageView fitHeight="525.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@solid-color-image.jpeg" />
+                  <Image url="@images/solid-color-image.jpeg" />
                </image>
             </ImageView>
          </children>
@@ -75,7 +75,7 @@
          <children>
             <ImageView fitHeight="528.0" fitWidth="351.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@My%20project%20(1).jpg" />
+                  <Image url="@images/My%20project%20(1).jpg" />
                </image>
             </ImageView>
          </children>
@@ -115,7 +115,7 @@
                         <Insets bottom="25.0" left="15.0" top="25.0" />
                      </HBox.margin>
                      <image>
-                        <Image url="@envelope%20(2).png" />
+                        <Image url="@images/envelope%20(2).png" />
                      </image>
                   </Avatar>
                   <Avatar accessibleRole="BUTTON" radius="30.0">
@@ -123,7 +123,7 @@
                         <Insets bottom="25.0" top="25.0" />
                      </HBox.margin>
                      <image>
-                        <Image url="@facebook.png" />
+                        <Image url="@images/facebook.png" />
                      </image>
                   </Avatar>
                   <Avatar accessibleRole="BUTTON" radius="30.0">
@@ -131,7 +131,7 @@
                         <Insets bottom="25.0" top="25.0" />
                      </HBox.margin>
                      <image>
-                        <Image url="@twitter.png" />
+                        <Image url="@images/twitter.png" />
                      </image>
                   </Avatar>
                </children>
